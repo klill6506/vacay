@@ -9,24 +9,46 @@
       margin: 0;
       padding: 0;
       min-height: 100vh;
-      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Segoe UI', Arial, sans-serif;
       color: #233;
     }
     .container {
-      background: rgba(255,255,255,0.92);
-      margin: 40px auto;
-      padding: 32px 18px;
-      max-width: 880px;
-      border-radius: 28px;
-      box-shadow: 0 8px 32px rgba(34,72,94,0.13);
+      background: rgba(255,255,255,0.94);
+      margin: 30px auto 40px auto;
+      padding: 0 0 28px 0;
+      max-width: 900px;
+      border-radius: 30px;
+      box-shadow: 0 8px 36px rgba(34,72,94,0.14);
       text-align: left;
+    }
+    .hero {
+      width: 100%;
+      height: 340px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6e/Trunk_Bay_St_John_USVI_2019.jpg') center center/cover no-repeat;
+      border-radius: 30px 30px 0 0;
+      box-shadow: 0 2px 16px #7fd4e755;
     }
     h1 {
       text-align: center;
       color: #1177aa;
-      margin-bottom: 0.4em;
+      margin: 0.8em 0 0.3em 0;
+    }
+    .thumbs {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin: 1.4em 0 1.4em 0;
+      justify-content: center;
+    }
+    .thumbs img {
+      width: 240px;
+      height: 135px;
+      object-fit: cover;
+      border-radius: 18px;
+      box-shadow: 0 2px 10px #aac3cc55;
+      border: 2px solid #d2eaf1;
     }
     h2 {
       margin-top: 2em;
@@ -49,21 +71,6 @@
     ul {
       padding-left: 1.1em;
     }
-    .thumbs {
-      display: flex;
-      gap: 18px;
-      flex-wrap: wrap;
-      margin: 2.4em 0 1.4em 0;
-      justify-content: center;
-    }
-    .thumbs img {
-      width: 172px;
-      height: 115px;
-      object-fit: cover;
-      border-radius: 14px;
-      box-shadow: 0 2px 10px #aac3cc55;
-      border: 2px solid #d2eaf1;
-    }
     .nav-link {
       display: block;
       text-align: center;
@@ -81,24 +88,28 @@
     }
     .nav-link:hover {background: #1177aa;}
     @media (max-width:700px) {
-      .container {padding: 8px 2px;}
-      .thumbs img {width: 108px; height: 70px;}
+      .container {padding: 0 2px 8px 2px;}
+      .hero {height: 120px;}
+      .thumbs img {width: 100px; height: 58px;}
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="hero"></div>
     <h1>The Lill's 2025 Virgin Islands Vacation</h1>
     <div class="thumbs">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Trunk_Bay_St_John_USVI_2019.jpg" alt="Trunk Bay, St. John" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/USVI_-_St._John_-_Cruz_Bay_-_Westin_Resort_-_03.jpg" alt="Westin St. John Resort Villas" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Magens_Bay_St_Thomas_USVI.jpg" alt="Magens Bay, St. Thomas" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Magens_Bay_Aerial_St_Thomas_USVI.jpg" alt="Aerial, St. Thomas" />
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Beach view" />
     </div>
     <h2>Friday, June 20 &mdash; Arrival &amp; St. John</h2>
     <div class="day">
       <ul>
-        <li><span class="time">3:00 pm</span>Arrive St. Thomas (STT); take <a href="https://www.westinresortstjohn.com/transportation/" target="_blank">Westin private ferry</a> to St. John</li>
+        <li><span class="time">3:00 pm</span>Arrive St. Thomas (STT)</li>
+        <li>Pick up <strong>4WD SUV from Enterprise</strong> at Cyril E. King Airport</li>
+        <li>Drive to Red Hook, <a href="https://www.vinow.com/travel/virgin-islands-ferry-schedules/st-thomas/st-thomas-red-hook-st-john/" target="_blank">take public ferry</a> to Cruz Bay, St. John</li>
         <li><span class="time">Evening</span>Check in: <a href="https://www.marriott.com/en-us/hotels/sttwi-the-westin-st-john-resort-villas/overview/" target="_blank">Westin St. John Resort Villas</a></li>
         <li>Dinner: <a href="https://www.tripadvisor.com/Restaurant_Review-g147410-d1074293-Reviews-The_Longboard_St_John-Cruz_Bay_St_John_U_S_Virgin_Islands.html" target="_blank">The Longboard</a> or <a href="https://www.ocean362.com/" target="_blank">Ocean 362</a></li>
       </ul>
@@ -124,7 +135,7 @@
     <h2>Monday, June 23 &mdash; St. John to St. Thomas</h2>
     <div class="day">
       <ul>
-        <li>Morning: Ferry to St. Thomas</li>
+        <li>Morning: Ferry to St. Thomas (drive 4WD SUV to Red Hook, take ferry, then drive to hotel)</li>
         <li>Check in: <a href="https://buoyhaus.com/" target="_blank">Buoy Haus Beach Resort</a></li>
         <li>Lunch: <a href="https://tripadvisor.com/Restaurant_Review-g147404-d1046324-Reviews-Hull_Bay_Hideaway-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Hull Bay Hideaway</a></li>
         <li>Afternoon: <a href="https://www.highpointzipline.com/" target="_blank">Ziplining at Tree Limin' Extreme</a> or beach at <a href="https://en.wikipedia.org/wiki/Magens_Bay" target="_blank">Magens Bay</a></li>
