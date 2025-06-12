@@ -9,46 +9,56 @@
       margin: 0;
       padding: 0;
       min-height: 100vh;
-      background: url('https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Segoe UI', Arial, sans-serif;
       color: #233;
     }
     .container {
-      background: rgba(255,255,255,0.94);
-      margin: 30px auto 40px auto;
+      background: rgba(255,255,255,0.95);
+      margin: 32px auto 48px auto;
       padding: 0 0 28px 0;
       max-width: 900px;
-      border-radius: 30px;
+      border-radius: 32px;
       box-shadow: 0 8px 36px rgba(34,72,94,0.14);
       text-align: left;
     }
-    .hero {
+    .gallery-row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 38px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+    }
+    .gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 320px;
+      max-width: 44vw;
+    }
+    .gallery-item img {
       width: 100%;
-      height: 340px;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6e/Trunk_Bay_St_John_USVI_2019.jpg') center center/cover no-repeat;
-      border-radius: 30px 30px 0 0;
-      box-shadow: 0 2px 16px #7fd4e755;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 18px;
+      box-shadow: 0 2px 14px #aadcf0aa;
+      border: 2.5px solid #c4e9ee;
+      margin-bottom: 8px;
+    }
+    .gallery-caption {
+      font-size: 1.07em;
+      font-weight: 600;
+      color: #13719e;
+      text-align: center;
+      margin-bottom: 6px;
+      letter-spacing: 1.2px;
     }
     h1 {
       text-align: center;
       color: #1177aa;
-      margin: 0.8em 0 0.3em 0;
-    }
-    .thumbs {
-      display: flex;
-      gap: 18px;
-      flex-wrap: wrap;
-      margin: 1.4em 0 1.4em 0;
-      justify-content: center;
-    }
-    .thumbs img {
-      width: 240px;
-      height: 135px;
-      object-fit: cover;
-      border-radius: 18px;
-      box-shadow: 0 2px 10px #aac3cc55;
-      border: 2px solid #d2eaf1;
+      margin: 1.3em 0 0.3em 0;
     }
     h2 {
       margin-top: 2em;
@@ -87,23 +97,32 @@
       transition: background 0.18s;
     }
     .nav-link:hover {background: #1177aa;}
+    @media (max-width:900px) {
+      .gallery-row {gap: 12px;}
+      .gallery-item {width: 48vw;}
+      .gallery-item img {height: 96px;}
+    }
     @media (max-width:700px) {
       .container {padding: 0 2px 8px 2px;}
-      .hero {height: 120px;}
-      .thumbs img {width: 100px; height: 58px;}
+      .gallery-row {flex-direction: column; gap: 0;}
+      .gallery-item {width: 95vw;}
+      .gallery-item img {height: 60vw;}
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="hero"></div>
-    <h1>The Lill's 2025 Virgin Islands Vacation</h1>
-    <div class="thumbs">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/USVI_-_St._John_-_Cruz_Bay_-_Westin_Resort_-_03.jpg" alt="Westin St. John Resort Villas" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Magens_Bay_St_Thomas_USVI.jpg" alt="Magens Bay, St. Thomas" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Magens_Bay_Aerial_St_Thomas_USVI.jpg" alt="Aerial, St. Thomas" />
-      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Beach view" />
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="St Johns Villa.jpg" alt="Westin St. John Resort Villas" />
+        <div class="gallery-caption">St John&#39;s Villa</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Buoy Haus.jpg" alt="Buoy Haus Beach Resort" />
+        <div class="gallery-caption">Buoy Haus</div>
+      </div>
     </div>
+    <h1>The Lill's 2025 Virgin Islands Vacation</h1>
     <h2>Friday, June 20 &mdash; Arrival &amp; St. John</h2>
     <div class="day">
       <ul>
@@ -171,4 +190,7 @@
   </div>
 </body>
 </html>
+
+
+
 
