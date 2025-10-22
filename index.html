@@ -1,206 +1,1743 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Lill/Braswell 2025 Virgin Islands Vacation</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      color: #233;
-    }
-    .container {
-      background: rgba(255,255,255,0.95);
-      margin: 32px auto 48px auto;
-      padding: 0 0 28px 0;
-      max-width: 900px;
-      border-radius: 32px;
-      box-shadow: 0 8px 36px rgba(34,72,94,0.14);
-      text-align: left;
-    }
-    .gallery-row {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      gap: 24px;
-      margin-top: 16px;
-      margin-bottom: 4px;
-    }
-    .gallery-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 180px;
-      max-width: 45vw;
-    }
-    .gallery-item img {
-      width: 100%;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 18px;
-      box-shadow: 0 2px 14px #aadcf0aa;
-      border: 2.5px solid #c4e9ee;
-      margin-bottom: 8px;
-    }
-    .gallery-caption {
-      font-size: 1.07em;
-      font-weight: 600;
-      color: #13719e;
-      text-align: center;
-      margin-bottom: 6px;
-      letter-spacing: 1.2px;
-    }
-    h1 {
-      text-align: center;
-      color: #1177aa;
-      margin: 1.3em 0 0.3em 0;
-    }
-    h2 {
-      margin-top: 2em;
-      color: #166e7c;
-      border-bottom: 1.5px solid #e7f7fb;
-      padding-bottom: 4px;
-    }
-    .day {
-      margin: 2em 0 1.3em 0;
-      background: #f8fcfd;
-      border-radius: 18px;
-      box-shadow: 0 1px 10px #cae3e9aa;
-      padding: 1.2em 1.1em;
-    }
-    .time {
-      font-weight: 600;
-      color: #009ea8;
-      margin-right: 10px;
-    }
-    ul {
-      padding-left: 1.1em;
-    }
-    .nav-link {
-      display: block;
-      text-align: center;
-      margin: 2em auto 0 auto;
-      width: max-content;
-      font-size: 1.09em;
-      background: #43b7e9;
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 24px;
-      border-radius: 24px;
-      font-weight: 600;
-      box-shadow: 0 2px 10px #1177aa23;
-      transition: background 0.18s;
-    }
-    .nav-link:hover {background: #1177aa;}
-    @media (max-width:700px) {
-      .container {padding: 0 2px 8px 2px;}
-      .gallery-row {flex-direction: row; gap: 6px;}
-      .gallery-item {width: 45vw; max-width: 50vw;}
-      .gallery-item img {height: 20vw;}
-    }
-    @media (max-width:520px) {
-      .gallery-row {flex-direction: column; gap: 0; align-items: center;}
-      .gallery-item {width: 90vw; max-width: 97vw;}
-      .gallery-item img {height: 38vw;}
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Providence & Boston Trip | Oct 27 - Nov 4, 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f5f5f5;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            background-position: 0 0, 25px 25px;
+            animation: moveStars 20s linear infinite;
+            z-index: 0;
+        }
+
+        @keyframes moveStars {
+            from { transform: translateY(0); }
+            to { transform: translateY(50px); }
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+        }
+
+        .destination-banner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: linear-gradient(to right, #2c3e50, #3498db, #2c3e50);
+            padding: 30px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .destination-item {
+            text-align: center;
+            color: white;
+        }
+
+        .destination-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+        }
+
+        .destination-item h3 {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        .trip-summary {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px;
+            border-bottom: 3px solid #667eea;
+            position: relative;
+        }
+
+        .trip-summary::before {
+            content: '🗺️';
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 4em;
+            opacity: 0.1;
+        }
+
+        .trip-summary h2 {
+            color: #1e3c72;
+            margin-bottom: 25px;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .trip-summary h2::before {
+            content: '✈️';
+            font-size: 1.2em;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .summary-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .summary-card::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+            transition: transform 0.5s ease;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .summary-card:hover::after {
+            transform: translate(-30%, -30%);
+        }
+
+        .summary-card h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .summary-card p {
+            margin: 8px 0;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            opacity: 0.95;
+        }
+
+        .summary-card strong {
+            color: #ffd700;
+        }
+
+        .content {
+            padding: 50px;
+            background: #fafbfc;
+        }
+
+        .section {
+            margin-bottom: 60px;
+            position: relative;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        /* Providence sections - Warm earthy tones */
+        .section.providence {
+            background: linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%);
+            border-left: 8px solid #d97706;
+        }
+
+        .section.providence h2 {
+            color: #c2410c;
+        }
+
+        .section.providence .section h2::after {
+            background: #d97706;
+        }
+
+        /* Boston sections - Cool blue tones */
+        .section.boston {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 8px solid #0284c7;
+        }
+
+        .section.boston h2 {
+            color: #075985;
+        }
+
+        .section.boston h2::after {
+            background: #0284c7;
+        }
+
+        /* Salem sections - Purple/Halloween tones */
+        .section.salem {
+            background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+            border-left: 8px solid #9333ea;
+        }
+
+        .section.salem h2 {
+            color: #6b21a8;
+        }
+
+        .section.salem h2::after {
+            background: #9333ea;
+        }
+
+        .section h2 {
+            color: #1e3c72;
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 4px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100px;
+            height: 4px;
+            background: #764ba2;
+        }
+
+        /* Day cards with alternating colors */
+        .day-card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            border-left: 6px solid #764ba2;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .day-card:nth-child(odd) {
+            background: linear-gradient(135deg, #ffffff 0%, #fef3c7 100%);
+            border-left-color: #f59e0b;
+        }
+
+        .day-card:nth-child(even) {
+            background: linear-gradient(135deg, #ffffff 0%, #dbeafe 100%);
+            border-left-color: #3b82f6;
+        }
+
+        /* Special coloring for specific days */
+        .day-card.providence-day {
+            background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
+            border-left-color: #ea580c;
+        }
+
+        .day-card.boston-day {
+            background: linear-gradient(135deg, #eff6ff 0%, #bfdbfe 100%);
+            border-left-color: #2563eb;
+        }
+
+        .day-card.salem-day {
+            background: linear-gradient(135deg, #faf5ff 0%, #e9d5ff 100%);
+            border-left-color: #a855f7;
+        }
+
+        .day-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, #667eea, #764ba2, #f093fb);
+        }
+
+        .day-card:hover {
+            transform: translateX(5px);
+        }
+
+        .day-card h3 {
+            color: #764ba2;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .day-card h4 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid #667eea;
+            background: rgba(102, 126, 234, 0.05);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .activity-item {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 18px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .activity-item:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transform: translateX(3px);
+            background: white;
+        }
+
+        .activity-item strong {
+            color: #1e3c72;
+            font-size: 1.05em;
+        }
+
+        .restaurant-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .restaurant-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+            border-top: 5px solid #764ba2;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Alternate restaurant card colors */
+        .restaurant-card:nth-child(3n+1) {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-top-color: #f59e0b;
+        }
+
+        .restaurant-card:nth-child(3n+2) {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-top-color: #3b82f6;
+        }
+
+        .restaurant-card:nth-child(3n+3) {
+            background: linear-gradient(135deg, #fae8ff 0%, #e9d5ff 100%);
+            border-top-color: #a855f7;
+        }
+
+        .restaurant-card::before {
+            content: '🍽️';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 3em;
+            opacity: 0.1;
+        }
+
+        .restaurant-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+        }
+
+        .restaurant-card h3 {
+            color: #1e293b;
+            margin-bottom: 12px;
+            font-size: 1.4em;
+        }
+
+        .restaurant-card p {
+            color: #475569;
+            margin: 6px 0;
+            line-height: 1.6;
+        }
+
+        .restaurant-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: rgba(102, 126, 234, 0.15);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .restaurant-card a:hover {
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid #2563eb;
+            margin: 25px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .info-box::before {
+            content: 'ℹ️';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2.5em;
+            opacity: 0.3;
+        }
+
+        .info-box h4 {
+            color: #1e40af;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 6px solid #ea580c;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .warning-box::before {
+            content: '⚠️';
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 2em;
+            opacity: 0.4;
+        }
+
+        .warning-box strong {
+            color: #9a3412;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '🎉';
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            font-size: 4em;
+            opacity: 0.1;
+            transform: translateY(-50%);
+        }
+
+        footer::after {
+            content: '✈️';
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            font-size: 4em;
+            opacity: 0.1;
+            transform: translateY(-50%);
+        }
+
+        footer h3 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        footer p {
+            margin: 8px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #854d0e;
+        }
+
+        /* Decorative elements */
+        .section-divider {
+            height: 4px;
+            background: linear-gradient(to right, transparent, #f59e0b, #3b82f6, #a855f7, transparent);
+            margin: 50px 0;
+            border-radius: 2px;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .day-card, .restaurant-card, .summary-card {
+                break-inside: avoid;
+            }
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .content {
+                padding: 25px;
+            }
+            .section {
+                padding: 25px;
+            }
+            .summary-grid, .restaurant-grid {
+                grid-template-columns: 1fr;
+            }
+            .destination-banner {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .trip-summary, .content {
+                padding: 25px;
+            }
+        }
+
+        /* Loading animation for fun */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .day-card, .restaurant-card, .summary-card {
+            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="gallery-row">
-      <div class="gallery-item">
-        <img src="St Johns Villa.jpg" alt="Westin St John Resort Villas" />
-        <div class="gallery-caption">St John Villa</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Buoy Haus.jpg" alt="Buoy Haus Beach Resort" />
-        <div class="gallery-caption">Buoy Haus</div>
-      </div>
-    </div>
-    <h1>The Lill/Braswell 2025 Virgin Islands Vacation</h1>
+    <div class="container">
+        <header>
+            <h1>🌟 Providence & Boston Adventure 🌟</h1>
+            <p>October 27 - November 4, 2025</p>
+            <p>Ken, Georgianna, Whit, & Samantha</p>
+            
+            <div class="destination-banner">
+                <div class="destination-item">
+                    <div class="destination-icon">🏛️</div>
+                    <h3>Providence</h3>
+                    <p>Art & History</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-icon">🦞</div>
+                    <h3>Boston</h3>
+                    <p>Colonial Heritage</p>
+                </div>
+                <div class="destination-item">
+                    <div class="destination-icon">🎃</div>
+                    <h3>Salem</h3>
+                    <p>Halloween Magic</p>
+                </div>
+            </div>
+        </header>
 
-    <h2>Friday, June 20 &mdash; Arrival &amp; St John</h2>
-    <div class="day">
-      <ul>
-        <li><span class="time">3:00 pm</span>Arrive St Thomas (STT)</li>
-        <li>Pick up <strong>4WD SUV from Enterprise</strong> at Cyril E King Airport</li>
-        <li><span class="time">4:30 pm</span> Drive to Red Hook, take <a href="https://bigredbarge.co" target="_blank">Big Red Barge car ferry</a> to Cruz Bay, St John</li>
-        <li><span class="time">Evening</span>Check in: <a href="https://www.marriott.com/en-us/hotels/sttwi-the-westin-st-john-resort-villas/overview/" target="_blank">Westin St John Resort Villas</a></li>
-        <li>Dinner: <a href="https://www.thelongboardstjohn.com/" target="_blank">The Longboard</a> or <a href="https://www.morgansmango.com/" target="_blank">Morgan's Mango</a></li>
-      </ul>
-    </div>
+        <div class="trip-summary">
+            <h2>Trip Overview</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3>✈️ Flights</h3>
+                    <p><strong>Outbound:</strong> Mon, Oct 27</p>
+                    <p>Delta 862 | First Class</p>
+                    <p>Atlanta → Boston</p>
+                    <p>11:34 AM - 2:10 PM</p>
+                    <p>Seats: 02C & 02D</p>
+                </div>
 
-    <h2>Saturday, June 21 &mdash; St John Adventure</h2>
-    <div class="day">
-      <ul>
-        <li>Morning: Relax at <a href="https://en.wikipedia.org/wiki/Trunk_Bay" target="_blank">Trunk Bay</a> or <a href="https://en.wikipedia.org/wiki/Cinnamon_Bay" target="_blank">Cinnamon Bay</a></li>
-        <li>Lunch: <a href="https://www.limeoutvi.com/" target="_blank">Lime Out VI (taco boat)</a> or <a href="https://www.morgansmango.com/" target="_blank">Morgan's Mango</a></li>
-        <li>Afternoon: Kayak or paddleboard with <a href="https://stjohnskayaks.com/" target="_blank">St John Kayak</a> or hike a trail in <a href="https://www.nps.gov/viis/planyourvisit/hiking.htm" target="_blank">Virgin Islands National Park</a></li>
-        <li>Dinner: <a href="https://www.extravirginbistro.com/" target="_blank">Extra Virgin Bistro</a></li>
-      </ul>
-    </div>
+                <div class="summary-card">
+                    <h3>✈️ Return Flight</h3>
+                    <p><strong>Return:</strong> Tue, Nov 4</p>
+                    <p>Delta 376 | First Class</p>
+                    <p>Boston → Atlanta</p>
+                    <p>12:10 PM - 3:03 PM</p>
+                    <p>Seats: 02C & 02D</p>
+                </div>
 
-    <h2>Sunday, June 22 &mdash; More St John</h2>
-    <div class="day">
-      <ul>
-        <li>Morning: Pool or beach day at the Westin, or visit <a href="https://en.wikipedia.org/wiki/Maho_Bay" target="_blank">Maho Bay</a> (gentle snorkeling, turtles)</li>
-        <li>Brunch: <a href="https://www.thebananadeck.com/" target="_blank">Banana Deck</a> or <a href="https://www.thebananadeck.com/" target="_blank">Cruz Bay Landing</a> (check hours in advance)</li>
-        <li>Afternoon: Explore Cruz Bay shops or relax at <a href="https://en.wikipedia.org/wiki/Hawksnest_Bay" target="_blank">Hawksnest Bay</a></li>
-        <li>Dinner: <a href="https://www.hightidevi.com/" target="_blank">High Tide Bar & Grill</a></li>
-      </ul>
-    </div>
+                <div class="summary-card">
+                    <h3>🚗 Rental Car</h3>
+                    <p><strong>Vehicle:</strong> BMW X3 2025</p>
+                    <p><strong>Pickup:</strong> Mon, Oct 27, 2:00 PM</p>
+                    <p>Boston Logan Airport</p>
+                    <p><strong>Return:</strong> Thu, Oct 30, 7:00 PM</p>
+                    <p><strong>Total Miles:</strong> 600 miles included</p>
+                    <p><strong>License Plate:</strong> 4JWF82</p>
+                    <p><strong>Confirmation:</strong> #50458339</p>
+                </div>
 
-    <h2>Monday, June 23 &mdash; St John to St Thomas</h2>
-    <div class="day">
-      <ul>
-        <li><span class="time">11:00 am</span> Take <a href="https://bigredbarge.co" target="_blank">Big Red Barge car ferry</a> back to St Thomas (drive SUV to Red Hook, ferry, then drive to hotel)</li>
-        <li>Check in: <a href="https://buoyhaus.com/" target="_blank">Buoy Haus Beach Resort</a> <strong>(after 4:00 pm)</strong></li>
-        <li>Lunch: <a href="https://www.sunsetgrillevi.com/" target="_blank">Sunset Grille</a>, <a href="https://amicivi.com/" target="_blank">Café Amici</a>, or <a href="https://758bar.com/" target="_blank">758 Bar & Restaurant</a></li>
-        <li>Afternoon: Relax at <a href="https://en.wikipedia.org/wiki/Magens_Bay" target="_blank">Magens Bay</a> or explore Charlotte Amalie shops</li>
-        <li>Dinner: Stone House Cafe (local historic spot)</li>
-      </ul>
-    </div>
+                <div class="summary-card">
+                    <h3>🏨 Providence Hotel</h3>
+                    <p><strong>Aloft Providence Downtown</strong></p>
+                    <p>191 Dorrance Street</p>
+                    <p>Providence, RI 02903</p>
+                    <p>+1-401-252-0710</p>
+                    <p><strong>Check-in:</strong> Mon, Oct 27, 4:00 PM</p>
+                    <p><strong>Check-out:</strong> Thu, Oct 30, 12:00 PM</p>
+                    <p>Confirmation: #79714376</p>
+                </div>
 
-    <h2>Tuesday, June 24 &mdash; St Thomas</h2>
-    <div class="day">
-      <ul>
-        <li>Morning: Beach time at <a href="https://en.wikipedia.org/wiki/Magens_Bay" target="_blank">Magens Bay</a> or <a href="https://www.secret-harbour-beach.com/" target="_blank">Secret Harbour</a></li>
-        <li><span class="time">1:30 pm</span> <a href="https://www.highpointzipline.com/" target="_blank">Ziplining at Tree Limin' Extreme</a> <a href="https://www.viator.com/account/booking/detail/1273238573/summary" target="_blank">(booking summary)</a></li>
-        <li>Lunch: <a href="https://www.tripadvisor.com/Restaurant_Review-g147404-d2737261-Reviews-Bistro_on_the_Bay-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Bistro on the Bay</a>, <a href="https://www.tripadvisor.com/Restaurant_Review-g147404-d1046696-Reviews-Iggies_Beach_Bar_Grill-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Iggies Beach Bar & Grill</a>, or <a href="https://www.petitepumproom.com/menu/lunch/" target="_blank">Petite Pump Room Bar & Restaurant</a></li>
-        <li>Afternoon: Optional sightseeing boat tour</li>
-        <li>Dinner: <a href="https://758bar.com/" target="_blank">758 Bar & Restaurant</a></li>
-      </ul>
-    </div>
+                <div class="summary-card">
+                    <h3>🏨 Boston Hotel</h3>
+                    <p><strong>Courtyard Boston Downtown/North Station</strong></p>
+                    <p>107 Beverly Street</p>
+                    <p>Boston, MA 02114</p>
+                    <p>+1-617-725-0003</p>
+                    <p><strong>Check-in:</strong> Thu, Oct 30, 5:00 PM</p>
+                    <p><strong>Check-out:</strong> Tue, Nov 4, 12:00 PM</p>
+                    <p>Confirmations: #93347166 & #93319738</p>
+                </div>
+            </div>
 
-    <h2>Wednesday, June 25 &mdash; Last Day</h2>
-    <div class="day">
-      <ul>
-        <li>Morning: Relax at Buoy Haus pool/beach or rent kayaks at <a href="https://www.bonvivantvi.com/" target="_blank">Bon Vivant</a></li>
-        <li>Lunch: <a href="https://www.tripadvisor.com/Restaurant_Review-g147404-d1046671-Reviews-Frenchtown_Brewery-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Frenchtown Brewery</a> or <a href="https://www.tripadvisor.com/Restaurant_Review-g147404-d1108805-Reviews-Grasshopper_Bar-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Grasshopper Bar</a></li>
-        <li>Afternoon: Optional water sports or visit <a href="https://www.tripadvisor.com/Attraction_Review-g147404-d147464-Reviews-Coral_World_Ocean_Park-St_Thomas_U_S_Virgin_Islands.html" target="_blank">Coral World Ocean Park</a></li>
-        <li>Dinner: TBD</li>
-      </ul>
-    </div>
+            <div class="warning-box" style="margin-top: 25px;">
+                <strong>⚠️ Important Car Pickup Information:</strong> Take shuttle route 88 to economy parking from any terminal. The TURO lot is in the right corner of the parking. Location: <a href="https://maps.app.goo.gl/Uw396H2xTCZC8owg8" target="_blank">Google Maps Link</a>
+            </div>
 
-    <h2>Thursday, June 26 &mdash; Departure</h2>
-    <div class="day">
-      <ul>
-        <li>Morning: Breakfast at hotel or nearby</li>
-        <li><span class="time">1:30 pm</span>Depart St Thomas (STT) on Delta</li>
-      </ul>
+            <div class="section-divider"></div>
+
+            <!-- Quick Reference Dashboard -->
+            <div style="background: linear-gradient(135deg, #fff8dc 0%, #ffeaa7 100%); padding: 30px; border-radius: 12px; margin-top: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #d35400; margin-bottom: 20px; text-align: center; font-size: 1.6em;">⚡ Quick Reference</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                    <div style="text-align: center; padding: 15px; background: white; border-radius: 8px;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">🏨</div>
+                        <strong>Providence Hotel</strong><br>
+                        <small>Aloft Downtown<br>401-252-0710</small>
+                    </div>
+                    <div style="text-align: center; padding: 15px; background: white; border-radius: 8px;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">🏨</div>
+                        <strong>Boston Hotel</strong><br>
+                        <small>Courtyard North Station<br>617-725-0003</small>
+                    </div>
+                    <div style="text-align: center; padding: 15px; background: white; border-radius: 8px;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">📚</div>
+                        <strong>Tax Class</strong><br>
+                        <small>Hilton Garden Inn<br>Warwick, RI</small>
+                    </div>
+                    <div style="text-align: center; padding: 15px; background: white; border-radius: 8px;">
+                        <div style="font-size: 2em; margin-bottom: 5px;">🎃</div>
+                        <strong>Salem Trip</strong><br>
+                        <small>Friday, Nov 1<br>Take commuter rail!</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- DAY BY DAY ITINERARY -->
+            <div class="section">
+                <h2>📅 Daily Itinerary</h2>
+
+                <div class="day-card">
+                    <h3>Monday, October 27 - Travel Day & Arrival in Providence</h3>
+                    <div class="activity-item">
+                        <strong>11:34 AM:</strong> Depart Atlanta on Delta 862 (First Class)
+                    </div>
+                    <div class="activity-item">
+                        <strong>2:10 PM:</strong> Arrive Boston Logan Airport
+                    </div>
+                    <div class="activity-item">
+                        <strong>2:00 PM:</strong> Pick up BMW X3 from Turo (Economy Parking, Shuttle Route 88)
+                    </div>
+                    <div class="activity-item">
+                        <strong>~3:00-3:30 PM:</strong> Drive to Providence (approximately 1 hour)
+                    </div>
+                    <div class="activity-item">
+                        <strong>4:00 PM:</strong> Check in at Aloft Providence Downtown (check-in time is 4:00 PM)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Evening:</strong> Explore downtown Providence, walk around WaterPlace Park
+                    </div>
+                    <div class="activity-item">
+                        <strong>Dinner Recommendation:</strong> <strong>The Patio on Broadway</strong> - Voted best restaurant in Providence! Bold American flavors with something for everyone. Make a reservation! Or try <strong>Waterman Grille</strong> for seafood and steaks with water views.
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Tuesday, October 28 - Full Day in Providence (Sightseeing)</h3>
+                    <div class="info-box">
+                        <h4>📍 Today is your free day to explore Providence before the tax class!</h4>
+                    </div>
+                    
+                    <h4>Morning Activities:</h4>
+                    <div class="activity-item">
+                        <strong>Breakfast:</strong> <strong>Nick's on Broadway</strong> - Great spot for brunch with lively vibe, reasonable prices
+                    </div>
+                    <div class="activity-item">
+                        <strong>Visit:</strong> <strong>Rhode Island School of Design (RISD) Museum</strong> - World-class art museum with over 80,000 works of art from Paul Revere's silver to French Impressionists
+                    </div>
+                    <div class="activity-item">
+                        <strong>Walk:</strong> <strong>Benefit Street</strong> - "Mile of History" with historic buildings including the Nightingale-Brown House (built 1792)
+                    </div>
+
+                    <h4>Lunch Options:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Dune Brothers Fox Point</strong> - Casual seafood shack, amazing fish sandwiches and crab rolls ($12-20)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> <strong>Track 15 Food Hall</strong> - Seven restaurants in one space, variety of cuisines ($10-18)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 3:</strong> <strong>Nick's on Broadway</strong> - Popular local spot with American fare, sandwiches, salads ($10-18)
+                    </div>
+
+                    <h4>Afternoon Activities:</h4>
+                    <div class="activity-item">
+                        <strong>Explore:</strong> <strong>Federal Hill</strong> - Providence's Italian neighborhood with shops, cafes, and authentic Italian culture
+                    </div>
+                    <div class="activity-item">
+                        <strong>Alternative:</strong> <strong>Roger Williams Park</strong> - Beautiful 435-acre park with botanical gardens
+                    </div>
+                    <div class="activity-item">
+                        <strong>Shopping:</strong> <strong>Thayer Street</strong> near Brown University - eclectic shops and cafes
+                    </div>
+
+                    <h4>Dinner Options (Choose Your Style):</h4>
+                    <div class="activity-item">
+                        <strong>Italian (Federal Hill):</strong> <strong>Camille's</strong> - Classic Italian, great pasta, family-friendly ($18-28 entrees)
+                    </div>
+                    <div class="activity-item">
+                        <strong>American/Creative:</strong> <strong>The Patio on Broadway</strong> - Bold flavors, creative cocktails ($16-28 entrees)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Seafood (Casual):</strong> <strong>Waterman Grille</strong> - Upscale casual, great seafood and views ($20-32 entrees)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Comfort Food:</strong> <strong>There, There</strong> - Casual west end spot, excellent burgers ($12-20)
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Wednesday, October 29 - Income Tax Update Class (All Day)</h3>
+                    <div class="warning-box">
+                        <strong>📚 Professional Development Day:</strong> Income Tax Update Class<br>
+                        <strong>Location:</strong> Hilton Garden Inn, 1 Thurber St, Warwick, RI 02886<br>
+                        <strong>Phone:</strong> 401-734-9600<br>
+                        <strong>Drive Time:</strong> ~15 minutes from Aloft Providence Downtown
+                    </div>
+                    
+                    <h4>Morning:</h4>
+                    <div class="activity-item">
+                        <strong>Breakfast:</strong> Grab breakfast at Aloft before heading to class, or stop at <strong>Dunkin'</strong> (Rhode Island loves Dunkin'!)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Drive to Warwick:</strong> Head to class location (allow extra time for parking)
+                    </div>
+
+                    <h4>Lunch Options near Hilton Garden Inn Warwick:</h4>
+                    <div class="activity-item">
+                        <strong>Close by:</strong> Check with class if lunch is provided, or nearby options in Warwick area
+                    </div>
+
+                    <h4>Evening Dinner Options (Back in Providence):</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Camille's</strong> - Casual Italian on Federal Hill, reasonable prices, great pasta
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> <strong>The Patio on Broadway</strong> - Voted best restaurant & brunch, bold American flavors, moderate prices
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 3:</strong> <strong>There, There</strong> - Casual spot in west end, great burgers and comfort food
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 4:</strong> <strong>Aguardente</strong> - Portuguese tapas and drinks, fun atmosphere
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Thursday, October 30 - Income Tax Class & Move to Boston</h3>
+                    <div class="warning-box">
+                        <strong>📚 Class Day:</strong> Income Tax Update Class continues<br>
+                        <strong>Location:</strong> Hilton Garden Inn, 1 Thurber St, Warwick, RI 02886<br>
+                        <strong>🚗 After Class:</strong> Travel to Boston
+                    </div>
+                    
+                    <h4>Morning/Class:</h4>
+                    <div class="activity-item">
+                        <strong>Breakfast:</strong> Quick breakfast at Aloft before driving to Warwick
+                    </div>
+                    <div class="activity-item">
+                        <strong>Lunch:</strong> Class break - provided lunch or nearby Warwick options
+                    </div>
+
+                    <h4>Afternoon/Evening:</h4>
+                    <div class="activity-item">
+                        <strong>12:00 PM:</strong> Check out of Aloft Providence (bags can stay with hotel)
+                    </div>
+                    <div class="activity-item">
+                        <strong>4:00 PM:</strong> Class ends - Drive to Boston (~1 hour)
+                    </div>
+                    <div class="activity-item">
+                        <strong>5:00 PM:</strong> Check in at Courtyard Boston Downtown/North Station
+                    </div>
+                    <div class="activity-item">
+                        <strong>6:00 PM:</strong> Return rental car to Logan Airport (take Uber/Lyft or Silver Line back to hotel)
+                    </div>
+                    <div class="activity-item">
+                        <strong>8:00 PM:</strong> <span class="highlight">Dinner with Whit & Samantha!</span>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Dinner Recommendation:</strong> <strong>Trattoria Il Panino</strong> (North End) - Cozy Italian, 10 min walk from hotel ($18-28) OR <strong>Carmelina's</strong> (North End) - Homemade pasta, family-friendly ($16-28) OR <strong>Legal Sea Foods</strong> - Boston classic, multiple locations ($18-32)
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Friday, October 31 - SALEM DAY TRIP! 🎃👻</h3>
+                    <div class="info-box">
+                        <h4>🎃 Halloween in Salem - All 4 of you!</h4>
+                        <p>Whit and Samantha join you! Salem is accessible by commuter rail (~30 min) or ferry (~50 min). Both are much better than driving - parking in Salem during Halloween season is extremely difficult!</p>
+                    </div>
+
+                    <h4>Getting There - Two Options:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1 - Commuter Rail (Recommended for Speed):</strong> From North Station (walk from your hotel!) to Salem Depot. Trains run every 30-60 minutes, ~30 minutes travel time, $8 each way per person. <a href="https://www.mbta.com/schedules/CR-Newburyport/timetable" target="_blank">MBTA Commuter Rail Schedule</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2 - Salem Ferry (Scenic & Fun!):</strong> From Long Wharf (near Aquarium T stop) to Salem. ~50 minutes travel time, runs seasonally through October 31. Check <a href="https://www.salemferry.com/" target="_blank">Salem Ferry Schedule</a> - may still be running early November or may have ended season. Adult fare ~$45 round trip. Beautiful harbor views!
+                    </div>
+                    <div class="warning-box">
+                        <strong>⚠️ Ferry Note:</strong> Salem Ferry typically runs through October but check their website to confirm November 1st availability. If ferry isn't running, take the commuter rail!
+                    </div>
+
+                    <h4>Salem Activities (Halloween is a BIG deal here!):</h4>
+                    <div class="activity-item">
+                        <strong>Morning:</strong> <strong>Salem Witch Museum</strong> - Learn about the 1692 witch trials. Buy tickets online in advance!
+                    </div>
+                    <div class="activity-item">
+                        <strong>Mid-Morning:</strong> Walk through historic downtown Salem, visit <strong>The House of the Seven Gables</strong>
+                    </div>
+                    
+                    <h4>Lunch Options in Salem:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Brodie's Seaport</strong> - Casual waterfront dining, seafood and American ($12-22)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> <strong>Ledger Restaurant</strong> - Located in Old Town Hall, good pub food ($14-24)
+                    </div>
+                    
+                    <h4>Afternoon Activities:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Peabody Essex Museum</strong> - World-class art museum (if you want a break from spooky!)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> Continue exploring <strong>Essex Street</strong> (pedestrian mall) - Halloween shops, psychic readings, street performers
+                    </div>
+                    <div class="activity-item">
+                        <strong>Fun:</strong> <strong>Hocus Pocus filming locations</strong> - The famous movie was filmed here! Self-guided tour
+                    </div>
+                    <div class="activity-item">
+                        <strong>Late Afternoon:</strong> Head back to Boston
+                    </div>
+
+                    <h4>Evening in Boston - Dinner Options:</h4>
+                    <div class="activity-item">
+                        <strong>North End (Walking Distance):</strong> <strong>Trattoria Il Panino</strong> - Cozy Italian, outdoor seating, moderate prices ($18-28)
+                    </div>
+                    <div class="activity-item">
+                        <strong>North End:</strong> <strong>Giacomo's Ristorante</strong> - Cash only, no reservations, incredible Italian, expect a wait ($16-26)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Seafood:</strong> <strong>Atlantic Fish Company</strong> (Back Bay) - Classic New England seafood ($22-36)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Italian:</strong> <strong>Carmelina's</strong> (North End) - Homemade pasta, classic Italian ($16-28)
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Saturday, November 1 - Explore Boston</h3>
+                    <h4>Morning:</h4>
+                    <div class="activity-item">
+                        <strong>Breakfast:</strong> <strong>Tatte Bakery</strong> (multiple locations) - Israeli-inspired bakery, pastries and coffee ($8-15)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Walk:</strong> <strong>The Freedom Trail</strong> - 2.5 mile walk through Revolutionary history (starts at Boston Common)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Visit:</strong> <strong>Faneuil Hall & Quincy Market</strong> - Historic marketplace with food and shopping
+                    </div>
+
+                    <h4>Lunch Options:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Regina Pizzeria</strong> (North End) - Famous Boston pizza since 1926 ($12-22)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> Food vendors at <strong>Quincy Market</strong> - Variety of options, casual ($10-18)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 3:</strong> <strong>Legal Sea Foods</strong> - Boston classic, good clam chowder and seafood ($18-32)
+                    </div>
+
+                    <h4>Afternoon Activities:</h4>
+                    <div class="activity-item">
+                        <strong>Explore:</strong> <strong>North End</strong> - Boston's Italian neighborhood, walk along Hanover Street
+                    </div>
+                    <div class="activity-item">
+                        <strong>Sweet Treat:</strong> <strong>Mike's Pastry</strong> or <strong>Modern Pastry</strong> - Famous Boston cannoli competition!
+                    </div>
+                    <div class="activity-item">
+                        <strong>Alternative:</strong> <strong>Boston Public Garden</strong> - Fall foliage, swan boats area, photo opportunities
+                    </div>
+
+                    <h4>Dinner Options:</h4>
+                    <div class="activity-item">
+                        <strong>Italian (North End):</strong> <strong>Giacomo's Ristorante</strong> - No reservations, cash only, amazing food, expect wait ($16-26)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Casual Seafood:</strong> <strong>Atlantic Fish Company</strong> (Back Bay) - Classic New England seafood ($22-36)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Pub Food:</strong> <strong>The Lantern</strong> (near hotel) - Cozy gastropub, good beer selection ($14-24)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Steakhouse:</strong> <strong>Davio's Northern Italian Steakhouse</strong> (Seaport) - Good steaks, moderate prices ($24-42)
+                    </div>
+
+                    <h4>🔐 Evening Activity Option - Escape Rooms!</h4>
+                    <div class="info-box">
+                        <h4>Perfect for Whit & Samantha!</h4>
+                        <p>Three great escape room options within walking distance of your hotel. Book in advance as weekend slots fill up!</p>
+                    </div>
+
+                    <div class="activity-item">
+                        <strong>🌟 TOP PICK - Trapology Boston:</strong> 177 Tremont St (0.8 mi / 15 min walk) | 6 themed rooms including "The Drunk Tank," "The Hustler," and "Crush Depth" | Wed-Sun 11am-10pm | $39.99/player (shared) or private games available | Worked with Chris Evans! | <a href="https://trapologyboston.com/" target="_blank">Book Here</a> | (857) 285-2085
+                    </div>
+
+                    <div class="activity-item">
+                        <strong>Room Escapers Boston:</strong> 3 School St (1.0 mi / 18 min walk) | Boston history themed rooms in historic Old Corner Bookstore | "Panacea" (alchemy), "Streaming" (trapped in Netflix!), FBI crime thriller | All private experiences | Daily 9am-10pm | <a href="https://roomescapersboston.com/" target="_blank">Book Here</a> | (857) 400-9144
+                    </div>
+
+                    <div class="activity-item">
+                        <strong>Escape The Room Boston:</strong> 33 West St (1.1 mi / 20 min walk) | "The Apartment," "The Clock Tower" | Family-friendly, can accommodate up to 12 players | <a href="https://escapetheroom.com/boston/" target="_blank">Book Here</a> | (857) 239-7424
+                    </div>
+
+                    <div class="activity-item">
+                        <strong>💡 Tip:</strong> Most games are 60 minutes. Allow 90 minutes total for briefing/debrief. Perfect for 6pm-9pm time slot!
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Sunday, November 2 - Boston Culture & Relaxation</h3>
+                    <h4>Morning/Brunch:</h4>
+                    <div class="activity-item">
+                        <strong>Brunch Option 1:</strong> <strong>The Friendly Toast</strong> (Back Bay) - Fun atmosphere, creative breakfast ($12-18)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Brunch Option 2:</strong> <strong>South Street Diner</strong> - Classic 24-hour diner, very local ($10-16)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Brunch Option 3:</strong> <strong>Mike & Patty's</strong> (Bay Village) - Small sandwich shop, famous breakfast sandwiches ($8-12)
+                    </div>
+
+                    <h4>Morning/Afternoon Activities (Choose Your Adventure):</h4>
+                    <div class="activity-item">
+                        <strong>Museums:</strong> <strong>Museum of Fine Arts</strong> or <strong>Isabella Stewart Gardner Museum</strong> - World-class art collections
+                    </div>
+                    <div class="activity-item">
+                        <strong>Outdoors:</strong> <strong>The Esplanade</strong> along Charles River - Beautiful fall foliage views and skyline
+                    </div>
+                    <div class="activity-item">
+                        <strong>Shopping:</strong> <strong>Newbury Street</strong> (Back Bay) - Boston's premier shopping street with boutiques and cafes
+                    </div>
+                    <div class="activity-item">
+                        <strong>Historic:</strong> <strong>Beacon Hill</strong> - Walk the charming streets, visit <strong>Acorn Street</strong> (most photographed street)
+                    </div>
+
+                    <h4>Afternoon Snack/Coffee:</h4>
+                    <div class="activity-item">
+                        <strong>Caffè Vittoria</strong> (North End) - Old-school Italian cafe, great espresso and atmosphere
+                    </div>
+
+                    <h4>Dinner Options:</h4>
+                    <div class="activity-item">
+                        <strong>Italian:</strong> <strong>Carmelina's</strong> (North End) - Classic Italian, homemade pasta, good value ($16-28)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Steakhouse (moderate):</strong> <strong>Davio's Northern Italian Steakhouse</strong> (Seaport) - Good steaks without high-end prices ($24-42)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Seafood:</strong> <strong>Legal Sea Foods</strong> - Boston institution, reliable seafood ($18-32)
+                    </div>
+                    <div class="activity-item">
+                        <strong>Casual Seafood:</strong> <strong>The Barking Crab</strong> (Seaport) - Fun waterfront seafood shack atmosphere ($16-28)
+                    </div>
+
+                    <h4>🔐 Evening Activity Option - Escape Rooms!</h4>
+                    <div class="activity-item">
+                        <strong>Trapology Boston</strong> or <strong>Room Escapers</strong> - See Saturday's section for full details. Great evening activity for all 4 of you! Book ahead!
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Monday, November 3 - Boston Exploration Day</h3>
+                    <div class="info-box">
+                        <h4>🗓️ Your Last Full Day - Choose Your Adventure!</h4>
+                        <p>Multiple options for different interests. Mix and match based on your mood!</p>
+                    </div>
+
+                    <h4>Morning/Brunch Options:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>The Friendly Toast</strong> (Back Bay) - Fun, creative breakfast in quirky atmosphere ($12-18) | <a href="https://thefriendlytoast.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> <strong>Mike & Patty's</strong> (Bay Village) - Famous breakfast sandwiches, small but mighty ($8-12) | Cash only
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 3:</strong> <strong>Tatte Bakery</strong> - Israeli-inspired pastries and shakshuka ($10-16) | <a href="https://tattebakery.com/" target="_blank">Multiple locations</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 4:</strong> <strong>South Street Diner</strong> - Classic 24-hour diner, very Boston ($10-16) | <a href="http://southstreetdiner.com/" target="_blank">Website</a>
+                    </div>
+
+                    <h4>Morning Activity Options (Choose 1-2):</h4>
+                    <div class="activity-item">
+                        <strong>Museum Option 1:</strong> <strong>Museum of Fine Arts</strong> - One of America's great museums, 500,000+ works | Allow 2-4 hours | <a href="https://www.mfa.org/" target="_blank">Website & Tickets</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Museum Option 2:</strong> <strong>Isabella Stewart Gardner Museum</strong> - Stunning Venetian palace with art, famous for 1990 unsolved heist | Allow 1-2 hours | <a href="https://www.gardnermuseum.org/" target="_blank">Website & Tickets</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Outdoor Option 1:</strong> <strong>The Esplanade</strong> - Walk along Charles River, fall foliage, Boston skyline views | Free | <a href="https://www.esplanadeassociation.org/" target="_blank">Info</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Outdoor Option 2:</strong> <strong>Boston Public Garden</strong> - America's first botanical garden, swan boats area, fall colors | Free | <a href="https://friendsofthepublicgarden.org/" target="_blank">Info</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Historic Option:</strong> <strong>Beacon Hill Walk</strong> - Charming neighborhood, visit Acorn Street (most photographed street in Boston) | Free | <a href="https://www.beaconhillonline.com/" target="_blank">Neighborhood Guide</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Shopping:</strong> <strong>Newbury Street</strong> - Boston's premier shopping street with boutiques in historic brownstones | <a href="https://www.newbury-st.com/" target="_blank">Shopping Guide</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Academic Tour:</strong> <strong>Harvard University (Cambridge)</strong> - Walk Harvard Yard, see historic campus, Harvard Square shopping & cafes | 15 min on Red Line from your hotel | <a href="https://www.harvard.edu/visit/" target="_blank">Visitor Info</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Tech & Science:</strong> <strong>MIT Campus (Cambridge)</strong> - Modern architecture, MIT Museum, walk along Charles River | Next to Harvard on Red Line | <a href="https://visit.mit.edu/" target="_blank">Visitor Info</a>
+                    </div>
+
+                    <h4>Lunch Options:</h4>
+                    <div class="activity-item">
+                        <strong>Option 1:</strong> <strong>Parish Cafe</strong> (Back Bay) - Sandwiches created by Boston's top chefs ($14-18) | <a href="https://www.parishcafe.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 2:</strong> <strong>Flour Bakery</strong> - Amazing sandwiches and baked goods ($10-14) | <a href="https://flourbakery.com/" target="_blank">Multiple locations</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 3:</strong> <strong>Regina Pizzeria</strong> (North End) - Boston's original pizza since 1926 ($12-22) | <a href="https://www.reginapizzeria.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Option 4:</strong> Lunch at <strong>Quincy Market/Faneuil Hall</strong> - Food stalls with variety ($10-18) | <a href="https://www.faneuilhallmarketplace.com/" target="_blank">Website</a>
+                    </div>
+
+                    <h4>Afternoon Activity Options:</h4>
+                    <div class="activity-item">
+                        <strong>History:</strong> <strong>Boston Tea Party Ships & Museum</strong> - Interactive experience, throw tea into the harbor! | ~1 hour | <a href="https://www.bostonteapartyship.com/" target="_blank">Tickets & Info</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Views:</strong> <strong>Skywalk Observatory</strong> - 50th floor views of Boston | Prudential Tower | <a href="https://skywalkboston.com/" target="_blank">Tickets</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Science:</strong> <strong>Museum of Science</strong> - Interactive exhibits, IMAX theater | Allow 2-3 hours | <a href="https://www.mos.org/" target="_blank">Tickets & Hours</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Aquarium:</strong> <strong>New England Aquarium</strong> - Giant ocean tank, penguins, IMAX | Allow 2 hours | <a href="https://www.neaq.org/" target="_blank">Tickets</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Shopping/Browsing:</strong> Continue on <strong>Newbury Street</strong> or visit <strong>Copley Place/Prudential Center</strong> malls
+                    </div>
+                    <div class="activity-item">
+                        <strong>Relaxation:</strong> Coffee at <strong>Caffè Vittoria</strong> (North End) - Historic Italian cafe | <a href="http://www.caffevittoria.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Cambridge Exploration:</strong> <strong>Harvard Square & MIT</strong> - Spend afternoon in Cambridge, browse bookstores, walk campuses, enjoy the college town vibe | Red Line from hotel
+                    </div>
+
+                    <div class="info-box" style="margin-top: 20px;">
+                        <h4>🎓 Harvard & MIT Tips:</h4>
+                        <p><strong>Getting There:</strong> Take Red Line from North Station (your hotel) to Harvard Square (10 min) or Kendall/MIT (8 min)</p>
+                        <p><strong>Harvard Highlights:</strong> Harvard Yard, Widener Library, Harvard Square bookstores & shops, The Coop</p>
+                        <p><strong>MIT Highlights:</strong> Modern architecture, Stata Center (Frank Gehry), walk along Charles River</p>
+                        <p><strong>Lunch in Harvard Square:</strong> Lots of options! Try Tatte Bakery, Grendel's Den, or Felipe's Taqueria</p>
+                        <p><strong>Allow:</strong> Half day (3-4 hours) to explore both campuses comfortably</p>
+                    </div>
+
+                    <h4>Afternoon Snack/Coffee Spots:</h4>
+                    <div class="activity-item">
+                        <strong>Caffè Vittoria</strong> (North End) - Old-school Italian espresso bar, vintage decor | <a href="http://www.caffevittoria.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Thinking Cup</strong> - Excellent coffee, pastries | <a href="https://www.thinkingcup.com/" target="_blank">Multiple locations</a>
+                    </div>
+
+                    <h4>Dinner Options (Your Last Night!):</h4>
+                    <div class="activity-item">
+                        <strong>Italian Option 1:</strong> <strong>Carmelina's</strong> (North End) - Homemade pasta, classic Italian ($16-28) | <a href="https://www.carmelinasboston.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Italian Option 2:</strong> <strong>Trattoria Il Panino</strong> (North End) - Cozy, outdoor seating ($18-28) | <a href="http://www.trattoriailpanino.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Seafood Option 1:</strong> <strong>Legal Sea Foods</strong> - Boston institution ($18-32) | <a href="https://www.legalseafoods.com/" target="_blank">Multiple locations</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Seafood Option 2:</strong> <strong>Atlantic Fish Company</strong> (Back Bay) - Classic New England seafood ($22-36) | <a href="https://atlanticfishco.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Steakhouse:</strong> <strong>Davio's Northern Italian Steakhouse</strong> (Seaport) - Good steaks, moderate prices ($24-42) | <a href="https://www.davios.com/" target="_blank">Website</a>
+                    </div>
+                    <div class="activity-item">
+                        <strong>Casual Favorite:</strong> <strong>The Barking Crab</strong> (Seaport) - Fun waterfront seafood shack vibe ($16-28) | <a href="https://barkingcrab.com/" target="_blank">Website</a>
+                    </div>
+
+                    <h4>After Dinner:</h4>
+                    <div class="activity-item">
+                        <strong>Dessert:</strong> Walk to North End for cannoli at Mike's or Modern Pastry - perfect ending to your trip!
+                    </div>
+                    <div class="activity-item">
+                        <strong>Evening Walk:</strong> Stroll along the waterfront at Christopher Columbus Park or walk through lit-up Faneuil Hall area
+                    </div>
+
+                    <h4>🔐 Or Try An Escape Room! (Last Chance)</h4>
+                    <div class="activity-item">
+                        <strong>Trapology Boston</strong> or <strong>Room Escapers</strong> - See Saturday's section for full details. Perfect way to end your Boston adventure! Book ahead!
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <h3>Tuesday, November 4 - Departure Day</h3>
+                    <h4>Morning:</h4>
+                    <div class="activity-item">
+                        <strong>12:00 PM:</strong> Check out of Courtyard Boston Downtown
+                    </div>
+                    <div class="activity-item">
+                        <strong>Last Minute:</strong> Grab a quick breakfast at hotel or nearby cafe
+                    </div>
+                    <div class="activity-item">
+                        <strong>Transport to Airport:</strong> Take Silver Line bus (free from South Station) or Uber/Lyft to Logan Airport
+                    </div>
+
+                    <h4>Departure:</h4>
+                    <div class="activity-item">
+                        <strong>12:10 PM:</strong> Depart Boston on Delta 376 (First Class)
+                    </div>
+                    <div class="activity-item">
+                        <strong>3:03 PM:</strong> Arrive Atlanta
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESTAURANT GUIDE -->
+            <div class="section providence">
+                <h2>🍽️ Providence Restaurant Guide</h2>
+                <p style="margin-bottom: 20px;"><em>Focus on moderate prices - nice quality, 3-star level, $15-30 per entree range</em></p>
+                
+                <div class="restaurant-grid">
+                    <div class="restaurant-card">
+                        <h3>The Patio on Broadway</h3>
+                        <p><strong>Type:</strong> American, Creative</p>
+                        <p><strong>Why Go:</strong> Voted best restaurant & brunch in Providence! Bold flavors, creative cocktails</p>
+                        <p><strong>Price Range:</strong> $16-28 entrees</p>
+                        <p><strong>Address:</strong> 166 Broadway, Providence</p>
+                        <p><a href="https://www.thepatiori.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Waterman Grille</h3>
+                        <p><strong>Type:</strong> American, Seafood</p>
+                        <p><strong>Why Go:</strong> Upscale casual with water views, excellent seafood and steaks</p>
+                        <p><strong>Price Range:</strong> $20-32 entrees</p>
+                        <p><strong>Address:</strong> 4 Richmond Square, Providence</p>
+                        <p><a href="https://www.watermangrille.com/" target="_blank">Website & Reservations</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Camille's</h3>
+                        <p><strong>Type:</strong> Italian</p>
+                        <p><strong>Why Go:</strong> Federal Hill favorite, great pasta, family-friendly atmosphere</p>
+                        <p><strong>Price Range:</strong> $18-28 entrees</p>
+                        <p><strong>Address:</strong> 71 Bradford St, Providence (Federal Hill)</p>
+                        <p><a href="https://www.camillesrestaurant.com/" target="_blank">Website</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Nick's on Broadway</h3>
+                        <p><strong>Type:</strong> American, Brunch</p>
+                        <p><strong>Why Go:</strong> Great breakfast/brunch with lively atmosphere, popular with locals</p>
+                        <p><strong>Price Range:</strong> $10-18 breakfast/brunch</p>
+                        <p><strong>Address:</strong> 500 Broadway, Providence</p>
+                        <p><a href="https://www.nicksonbroadway.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Dune Brothers Fox Point</h3>
+                        <p><strong>Type:</strong> Seafood Shack</p>
+                        <p><strong>Why Go:</strong> Fresh local seafood, famous crab roll, Rhode Island clam chowder</p>
+                        <p><strong>Price Range:</strong> $12-20</p>
+                        <p><strong>Address:</strong> 171 Ives St, Providence</p>
+                        <p><a href="https://www.dunebrothersseafood.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>There, There</h3>
+                        <p><strong>Type:</strong> American, Burgers</p>
+                        <p><strong>Why Go:</strong> Casual west end spot, excellent burgers and fries, relaxed atmosphere</p>
+                        <p><strong>Price Range:</strong> $12-20</p>
+                        <p><strong>Address:</strong> 185 Broadway, Providence</p>
+                        <p><a href="https://www.theretherepvd.com/" target="_blank">Website</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Aguardente</h3>
+                        <p><strong>Type:</strong> Portuguese Tapas</p>
+                        <p><strong>Why Go:</strong> Fun atmosphere, shareable plates, good drinks</p>
+                        <p><strong>Price Range:</strong> $8-18 per tapas</p>
+                        <p><strong>Address:</strong> 584 Pontiac Ave, Cranston (nearby)</p>
+                        <p><a href="https://www.aguardenteus.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Track 15 Food Hall</h3>
+                        <p><strong>Type:</strong> Food Hall</p>
+                        <p><strong>Why Go:</strong> Seven local restaurants - something for everyone!</p>
+                        <p><strong>Options:</strong> Indian, Italian, Turkish, burgers, pizza</p>
+                        <p><strong>Price Range:</strong> $10-18</p>
+                        <p><strong>Address:</strong> 150 Dorrance St, Providence</p>
+                        <p><a href="https://www.track15.com/" target="_blank">Website & Vendors</a></p>
+                    </div>
+                </div>
+
+                <div class="info-box" style="margin-top: 25px;">
+                    <h4>💡 Providence Dining Tips:</h4>
+                    <p><strong>Federal Hill:</strong> Providence's Italian neighborhood - walk along Atwells Avenue for authentic Italian markets and restaurants</p>
+                    <p><strong>Parking:</strong> Most restaurants don't have dedicated parking - use street parking or nearby lots</p>
+                    <p><strong>Reservations:</strong> Recommended for dinner, especially on weekends. Use <a href="https://www.opentable.com/" target="_blank">OpenTable</a> or call directly</p>
+                </div>
+            </div>
+
+            <!-- BOSTON RESTAURANT GUIDE -->
+            <div class="section boston">
+                <h2>🍽️ Boston Restaurant Guide</h2>
+                <p style="margin-bottom: 20px;"><em>Focus on moderate prices - nice quality, 3-star level, $15-35 per entree range</em></p>
+                
+                <div class="restaurant-grid">
+                    <div class="restaurant-card">
+                        <h3>Giacomo's Ristorante</h3>
+                        <p><strong>Type:</strong> Italian (North End)</p>
+                        <p><strong>Why Go:</strong> Incredible Italian food, generous portions, authentic experience</p>
+                        <p><strong>Price Range:</strong> $16-26</p>
+                        <p><strong>Address:</strong> 355 Hanover St, Boston</p>
+                        <p><strong>Note:</strong> Cash only, no reservations, expect a wait - worth it!</p>
+                        <p><a href="https://www.giacomosboston.com/" target="_blank">Website</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Trattoria Il Panino</h3>
+                        <p><strong>Type:</strong> Italian (North End)</p>
+                        <p><strong>Why Go:</strong> Cozy atmosphere, outdoor seating, classic Italian</p>
+                        <p><strong>Price Range:</strong> $18-28</p>
+                        <p><strong>Address:</strong> 11 Parmenter St, Boston</p>
+                        <p><a href="http://www.trattoriailpanino.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Carmelina's</h3>
+                        <p><strong>Type:</strong> Italian (North End)</p>
+                        <p><strong>Why Go:</strong> Homemade pasta, classic Italian, good value</p>
+                        <p><strong>Price Range:</strong> $16-28</p>
+                        <p><strong>Address:</strong> 307 Hanover St, Boston</p>
+                        <p><a href="https://www.carmelinasboston.com/" target="_blank">Website & Reservations</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Atlantic Fish Company</h3>
+                        <p><strong>Type:</strong> Seafood (Back Bay)</p>
+                        <p><strong>Why Go:</strong> Classic New England seafood, fresh fish, good atmosphere</p>
+                        <p><strong>Price Range:</strong> $22-36</p>
+                        <p><strong>Address:</strong> 761 Boylston St, Boston</p>
+                        <p><a href="https://atlanticfishco.com/" target="_blank">Website & Reservations</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Legal Sea Foods</h3>
+                        <p><strong>Type:</strong> Seafood Chain</p>
+                        <p><strong>Why Go:</strong> Boston institution, reliable, "If it isn't fresh, it isn't Legal"</p>
+                        <p><strong>Price Range:</strong> $18-32</p>
+                        <p><strong>Multiple locations</strong> throughout Boston</p>
+                        <p><a href="https://www.legalseafoods.com/" target="_blank">Website & Locations</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Regina Pizzeria</h3>
+                        <p><strong>Type:</strong> Pizza (North End)</p>
+                        <p><strong>Why Go:</strong> Boston's original pizzeria since 1926, brick oven pizza</p>
+                        <p><strong>Price Range:</strong> $12-22</p>
+                        <p><strong>Address:</strong> 11 1/2 Thacher St, Boston (original)</p>
+                        <p><a href="https://www.reginapizzeria.com/" target="_blank">Website & Locations</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Davio's Northern Italian Steakhouse</h3>
+                        <p><strong>Type:</strong> Steakhouse (Seaport)</p>
+                        <p><strong>Why Go:</strong> Good steaks without high-end prices, Italian influence</p>
+                        <p><strong>Price Range:</strong> $24-42</p>
+                        <p><strong>Address:</strong> 50 Liberty Drive, Boston</p>
+                        <p><a href="https://www.davios.com/" target="_blank">Website & Menu</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>The Barking Crab</h3>
+                        <p><strong>Type:</strong> Seafood Shack (Seaport)</p>
+                        <p><strong>Why Go:</strong> Fun waterfront atmosphere, casual, picnic table vibes</p>
+                        <p><strong>Price Range:</strong> $16-28</p>
+                        <p><strong>Address:</strong> 88 Sleeper St, Boston</p>
+                        <p><a href="https://barkingcrab.com/" target="_blank">Website</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Mike's Pastry & Modern Pastry</h3>
+                        <p><strong>Type:</strong> Bakery/Dessert (North End)</p>
+                        <p><strong>Why Go:</strong> Famous Boston cannoli rivalry - try both!</p>
+                        <p><strong>Price:</strong> $5-8 per pastry</p>
+                        <p><strong>Mike's:</strong> 300 Hanover St | <a href="https://www.mikespastry.com/" target="_blank">Website</a></p>
+                        <p><strong>Modern:</strong> 257 Hanover St | <a href="https://www.modernpastry.com/" target="_blank">Website</a></p>
+                    </div>
+                </div>
+
+                <div class="info-box" style="margin-top: 30px;">
+                    <h4>🍕 North End Dining Tips:</h4>
+                    <p><strong>The North End is Boston's Little Italy</strong> - Very walkable from your hotel (10-15 min)! Many small, family-run restaurants with authentic Italian food. Most don't take reservations, so arrive early or expect a wait on weekends. Cash is often preferred.</p>
+                    <p><strong>After Dinner:</strong> Walk along Hanover Street, stop for espresso at Caffè Vittoria, grab cannoli at Mike's or Modern</p>
+                    <p><strong>Make Reservations:</strong> Use <a href="https://www.opentable.com/" target="_blank">OpenTable</a> or <a href="https://resy.com/" target="_blank">Resy</a> for restaurants that take them</p>
+                </div>
+            </div>
+
+            <!-- SALEM GUIDE -->
+            <div class="section salem">
+                <h2>🎃 Salem, Massachusetts Guide</h2>
+                <div class="info-box">
+                    <h4>Getting to Salem from Boston:</h4>
+                    <p><strong>Commuter Rail:</strong> From North Station (right by your hotel!) to Salem Depot. ~30 minutes, $8 each way. Trains run every 30-60 minutes.</p>
+                    <p><strong>Why not drive?</strong> Parking in Salem during October/Halloween season is extremely difficult and expensive. The train is much easier!</p>
+                </div>
+
+                <div class="restaurant-grid">
+                    <div class="restaurant-card">
+                        <h3>Salem Witch Museum</h3>
+                        <p><strong>Why Go:</strong> Learn about the 1692 witch trials through life-size stage sets</p>
+                        <p><strong>Duration:</strong> About 1 hour</p>
+                        <p><strong>Tip:</strong> Buy tickets online in advance - long lines in October!</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>The House of the Seven Gables</h3>
+                        <p><strong>Why Go:</strong> Historic 1668 mansion, inspiration for Hawthorne's novel</p>
+                        <p><strong>Views:</strong> Beautiful waterfront location</p>
+                        <p><strong>Duration:</strong> 1-2 hours with tour</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Peabody Essex Museum</h3>
+                        <p><strong>Why Go:</strong> World-class art museum with diverse collections</p>
+                        <p><strong>Perfect if:</strong> You want a break from spooky stuff!</p>
+                        <p><strong>Duration:</strong> 2-3 hours</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Hocus Pocus Filming Locations</h3>
+                        <p><strong>Why Go:</strong> The iconic movie was filmed in Salem!</p>
+                        <p><strong>Locations:</strong> Max & Dani's house, Old Town Hall, Pioneer Village</p>
+                        <p><strong>Tip:</strong> Download a self-guided tour map</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px; color: #764ba2;">Salem Restaurants (Moderate Pricing):</h3>
+                <div class="restaurant-grid">
+                    <div class="restaurant-card">
+                        <h3>Brodie's Seaport</h3>
+                        <p><strong>Type:</strong> Casual Waterfront</p>
+                        <p><strong>Why Go:</strong> Seafood and American classics, nice water views</p>
+                        <p><strong>Price Range:</strong> $12-22</p>
+                        <p><strong>Good for:</strong> Casual lunch</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Ledger Restaurant</h3>
+                        <p><strong>Type:</strong> American, Pub Food</p>
+                        <p><strong>Location:</strong> Located in historic Old Town Hall</p>
+                        <p><strong>Price Range:</strong> $14-24</p>
+                        <p><strong>Atmosphere:</strong> Historic building, good beer selection</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Bit Bar Salem</h3>
+                        <p><strong>Type:</strong> Pub, Arcade Bar</p>
+                        <p><strong>Why Go:</strong> Fun atmosphere with vintage arcade games, good burgers and pub food</p>
+                        <p><strong>Price Range:</strong> $10-18</p>
+                        <p><strong>Perfect for:</strong> Casual, fun lunch</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Howling Wolf Taqueria</h3>
+                        <p><strong>Type:</strong> Mexican, Tacos</p>
+                        <p><strong>Why Go:</strong> Quick, tasty, fun Salem-themed atmosphere</p>
+                        <p><strong>Price Range:</strong> $10-16</p>
+                        <p><strong>Good for:</strong> Quick lunch between attractions</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Gulu-Gulu Cafe</h3>
+                        <p><strong>Type:</strong> Cafe, Pub</p>
+                        <p><strong>Why Go:</strong> Casual spot, good sandwiches, great beer selection</p>
+                        <p><strong>Price Range:</strong> $10-16</p>
+                        <p><strong>Vibe:</strong> Local favorite, laid-back</p>
+                    </div>
+                </div>
+
+                <div class="warning-box" style="margin-top: 20px;">
+                    <strong>⚠️ Salem Halloween Tips:</strong>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Expect BIG crowds - October is Salem's busiest month</li>
+                        <li>Book any museum tickets online in advance</li>
+                        <li>Wear comfortable walking shoes</li>
+                        <li>Essex Street (pedestrian mall) is the heart of the action</li>
+                        <li>Many shops sell witch/Halloween merchandise - fun for souvenirs!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- BOSTON ACTIVITIES -->
+            <div class="section boston">
+                <h2>🏛️ Boston Activities & Attractions</h2>
+                <div class="restaurant-grid">
+                    <div class="restaurant-card">
+                        <h3>The Freedom Trail</h3>
+                        <p><strong>What:</strong> 2.5-mile walk through Revolutionary War history</p>
+                        <p><strong>Highlights:</strong> Boston Common, State House, Paul Revere House, Old North Church</p>
+                        <p><strong>Duration:</strong> 2-4 hours depending on stops</p>
+                        <p><strong>Cost:</strong> Free to walk (some sites charge admission)</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Faneuil Hall & Quincy Market</h3>
+                        <p><strong>What:</strong> Historic marketplace with food vendors and shopping</p>
+                        <p><strong>Perfect for:</strong> Lunch, people watching, street performers</p>
+                        <p><strong>Location:</strong> On the Freedom Trail</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Museum of Fine Arts</h3>
+                        <p><strong>What:</strong> One of America's great art museums</p>
+                        <p><strong>Collection:</strong> 500,000+ works of art, Egyptian mummies to contemporary</p>
+                        <p><strong>Allow:</strong> 2-4 hours</p>
+                        <p><a href="https://www.mfa.org/" target="_blank">Website</a></p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Isabella Stewart Gardner Museum</h3>
+                        <p><strong>What:</strong> Stunning 15th-century Venetian palace with art collection</p>
+                        <p><strong>Famous for:</strong> 1990 art heist (still unsolved!)</p>
+                        <p><strong>Vibe:</strong> Intimate, beautiful courtyard garden</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Boston Public Garden</h3>
+                        <p><strong>What:</strong> America's first public botanical garden (1837)</p>
+                        <p><strong>Don't miss:</strong> Swan Boats (seasonal), Make Way for Ducklings statues</p>
+                        <p><strong>Fall colors:</strong> Spectacular in early November!</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>The Esplanade</h3>
+                        <p><strong>What:</strong> Beautiful park along the Charles River</p>
+                        <p><strong>Perfect for:</strong> Walking, fall foliage viewing, photos</p>
+                        <p><strong>Views:</strong> Boston skyline and MIT across the river</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>Newbury Street</h3>
+                        <p><strong>What:</strong> Boston's premier shopping street</p>
+                        <p><strong>Features:</strong> Boutiques, galleries, cafes in historic brownstones</p>
+                        <p><strong>Location:</strong> Back Bay neighborhood</p>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <h3>North End</h3>
+                        <p><strong>What:</strong> Boston's Little Italy</p>
+                        <p><strong>Perfect for:</strong> Walking, Italian food, espresso, pastries</p>
+                        <p><strong>Vibe:</strong> Old world charm, narrow streets, authentic culture</p>
+                    </div>
+                </div>
+
+                <div class="info-box" style="margin-top: 30px;">
+                    <h4>🍂 November in Boston:</h4>
+                    <p>Early November often still has beautiful fall colors! The slightly cooler weather makes it perfect for walking around the city. Boston's compact size means you can walk to many attractions, and the T (subway) is easy to use for longer distances.</p>
+                </div>
+            </div>
+
+            <!-- PRACTICAL INFO -->
+            <div class="section">
+                <h2>📋 Practical Information</h2>
+                
+                <div class="info-box">
+                    <h4>🚗 Getting to/from Logan Airport:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>To Airport (Monday departure):</strong>
+                            <ul style="margin-left: 20px; margin-top: 5px;">
+                                <li><strong>Option 1 - Uber/Lyft:</strong> $25-35, 15-20 minutes (easiest with luggage)</li>
+                                <li><strong>Option 2 - Public Transit:</strong> Orange Line to State, transfer to Blue Line to Airport. Then free shuttle to your terminal. ~40 minutes, $2.40</li>
+                                <li><strong>Option 3 - Silver Line:</strong> Walk to South Station, take Silver Line SL1 (free) directly to airport terminals. ~30 minutes</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>🚶 Walking Distances from Your Hotel:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>North End (Italian restaurants):</strong> 10-15 minutes</li>
+                        <li><strong>Faneuil Hall/Quincy Market:</strong> 15 minutes</li>
+                        <li><strong>Boston Common:</strong> 20 minutes</li>
+                        <li><strong>TD Garden (sports/concerts):</strong> Connected to your hotel!</li>
+                        <li><strong>Beacon Hill:</strong> 15-20 minutes</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Pro Tip:</strong> Your hotel location is excellent - you're centrally located and can walk to most major attractions!</p>
+                </div>
+
+                <div class="info-box">
+                    <h4>🚗 Rental Car Notes:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>GPS Tracking:</strong> Vehicle has GPS for safety/security purposes</li>
+                        <li><strong>Mileage:</strong> 600 miles included, $0.75 per additional mile</li>
+                        <li><strong>Pickup Instructions:</strong> Take shuttle route 88 to economy parking, TURO lot in right corner</li>
+                        <li><strong>Return:</strong> Thursday evening (7:00 PM) at Logan Airport</li>
+                        <li><strong>After Return:</strong> Uber/Lyft to Boston hotel (~$25-35, 15-20 minutes)</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>🚇 Boston Transportation (The "T"):</h4>
+                    <p><strong>Your Hotel Location:</strong> Courtyard Boston Downtown/North Station is directly connected to North Station - one of Boston's major transit hubs!</p>
+                    
+                    <h4 style="margin-top: 15px;">The MBTA System:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>At North Station (your hotel):</strong> Orange Line and Green Line subway, plus Commuter Rail</li>
+                        <li><strong>Fare:</strong> $2.40 per subway ride with CharlieCard, $2.90 with CharlieTicket or cash</li>
+                        <li><strong>CharlieCard:</strong> Reusable card available free at station kiosks - best value!</li>
+                        <li><strong>Day Pass:</strong> $11 for unlimited subway and local bus rides</li>
+                        <li><strong>7-Day Pass:</strong> $22.50 (probably not worth it for your stay)</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">Key Lines from North Station:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Orange Line:</strong> Goes to Downtown Crossing, Chinatown, Back Bay, Museum of Fine Arts area</li>
+                        <li><strong>Green Line:</strong> Goes to Boston Common, Public Garden, Copley Square, Newbury Street</li>
+                        <li><strong>Commuter Rail:</strong> To Salem (for your Friday trip!), other suburbs</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">Getting to Key Destinations:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Freedom Trail/Faneuil Hall:</strong> Walk (15 min) or Orange Line to State/Haymarket</li>
+                        <li><strong>North End (Italian restaurants):</strong> Walk from hotel (10-15 minutes)</li>
+                        <li><strong>Newbury Street:</strong> Green Line to Arlington or Copley</li>
+                        <li><strong>Museum of Fine Arts:</strong> Green Line E to Museum of Fine Arts stop</li>
+                        <li><strong>Boston Common/Public Garden:</strong> Green Line to Boylston or Park Street</li>
+                        <li><strong>Seaport District:</strong> Walk to South Station (Orange Line), then Silver Line SL1 or SL2</li>
+                        <li><strong>Logan Airport:</strong> Blue Line from State St, or Silver Line from South Station (free!)</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">Important MBTA Links:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Official Site:</strong> <a href="https://www.mbta.com/" target="_blank">MBTA.com</a></li>
+                        <li><strong>Trip Planner:</strong> <a href="https://www.mbta.com/trip-planner" target="_blank">Plan Your Route</a></li>
+                        <li><strong>Commuter Rail to Salem:</strong> <a href="https://www.mbta.com/schedules/CR-Newburyport/timetable" target="_blank">Newburyport Line Schedule</a></li>
+                        <li><strong>Mobile App:</strong> Download "MBTA mTicket" app for easy fare payment</li>
+                        <li><strong>Live Updates:</strong> <a href="https://www.mbta.com/alerts" target="_blank">Service Alerts</a></li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">Transit Tips:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Boston is very walkable! Many attractions are within 20-30 minute walks</li>
+                        <li>The T stops running around 12:30 AM on weekdays, 1:30 AM weekends</li>
+                        <li>North Station area is safe and well-lit for evening walks</li>
+                        <li>Uber/Lyft are readily available as backup</li>
+                        <li>Download Google Maps - works great for T directions</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>⛴️ Salem Ferry Information:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Operator:</strong> Boston Harbor Cruises</li>
+                        <li><strong>Website:</strong> <a href="https://www.salemferry.com/" target="_blank">SalemFerry.com</a></li>
+                        <li><strong>Departure:</strong> Long Wharf (near Aquarium T stop on Blue Line)</li>
+                        <li><strong>Duration:</strong> ~50 minutes scenic ride</li>
+                        <li><strong>Adult Fare:</strong> ~$45 round trip</li>
+                        <li><strong>Season:</strong> Typically runs through October, check if running November 1st</li>
+                        <li><strong>Views:</strong> Beautiful Boston Harbor and Massachusetts coastline</li>
+                        <li><strong>Note:</strong> If ferry isn't running, commuter rail from North Station is faster anyway!</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>🚗 Getting to/from Logan Airport:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>The T (Subway):</strong> Easy to use, inexpensive. Your hotel is right by North Station (Orange & Green lines)</li>
+                        <li><strong>To Salem:</strong> Commuter Rail from North Station</li>
+                        <li><strong>To Airport:</strong> Silver Line (free from South Station) or Blue Line, or Uber/Lyft</li>
+                        <li><strong>Walking:</strong> Many attractions are walkable - Boston is very pedestrian-friendly</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>💰 Parking Costs:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Aloft Providence:</strong> Valet parking $40/day (7am-11pm, Fri/Sat 24/7 May-Nov)</li>
+                        <li><strong>Courtyard Boston:</strong> Valet parking $65/day (first come, first served)</li>
+                        <li><strong>Note:</strong> You're returning the car Thursday evening, so no Boston hotel parking needed!</li>
+                    </ul>
+                </div>
+
+                <div class="warning-box">
+                    <h4>🎫 Reservation Recommendations:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Make Ahead:</strong> The Patio on Broadway, Waterman Grille, Giacomo's (no res but arrive early!)</li>
+                        <li><strong>For Salem:</strong> Buy museum tickets online in advance (Witch Museum, House of Seven Gables)</li>
+                        <li><strong>Popular Spots:</strong> North End restaurants fill up fast on weekends - arrive early or expect waits</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>📱 Useful Links:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Providence Tourism:</strong> <a href="https://www.goprovidence.com/" target="_blank">GoProvidence.com</a></li>
+                        <li><strong>Boston Tourism:</strong> <a href="https://www.meetboston.com/" target="_blank">MeetBoston.com</a></li>
+                        <li><strong>MBTA (Boston Transit):</strong> <a href="https://www.mbta.com/" target="_blank">MBTA.com</a></li>
+                        <li><strong>Salem Tourism:</strong> <a href="https://www.salem.org/" target="_blank">Salem.org</a></li>
+                        <li><strong>OpenTable:</strong> <a href="https://www.opentable.com/" target="_blank">Restaurant Reservations</a></li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>🌡️ November Weather:</h4>
+                    <p><strong>Expected Temperatures:</strong> Highs in the 50s°F, lows in the 40s°F</p>
+                    <p><strong>Pack:</strong> Layers, light jacket, comfortable walking shoes, umbrella (possibility of rain)</p>
+                    <p><strong>Fall Foliage:</strong> Should still have some color in early November!</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3 style="margin-bottom: 15px;">Have a Wonderful Trip! 🎉</h3>
+            <p>October 27 - November 4, 2025</p>
+            <p>Providence, Rhode Island & Boston, Massachusetts</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                This itinerary was created October 2025<br>
+                Safe travels and enjoy your adventure!
+            </p>
+        </footer>
     </div>
-    <a class="nav-link" href="travel-info.html">Flight &amp; Hotel Details →</a>
-  </div>
 </body>
 </html>
-
-
-
-
-
-
